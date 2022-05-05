@@ -228,7 +228,9 @@ namespace Lesson_9_Homework
                         if (dirInfo1.Exists)
                         {
                             dirInfo1.Delete(true);
-                            Console.WriteLine("Каталог удален");
+                            Console.WriteLine("│Каталог удален");
+                            Console.WriteLine("│Всё готово! Что-нибудь жмякните,для продолжения. Обращаю ваше внимание,что верхние уровни консоли будут очищены.");
+                            Console.ReadKey(true);
                         }
                         else
                         {
